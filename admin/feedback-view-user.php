@@ -85,7 +85,7 @@ if (isset($_GET["id"])) {
                     <?php
                     for ($i = 1; $i <= $pages; $i++) {
                     ?>
-                        <li class="page-item"><a class="page-link" href="feedback-view.php?pages=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+                        <li class="page-item"><a class="page-link" href="feedback-view-user.php?pages=<?php echo $i; ?>"><?php echo $i; ?></a></li>
                     <?php
                     }
                     ?>
