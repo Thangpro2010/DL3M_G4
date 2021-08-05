@@ -51,7 +51,7 @@
                  <span>Khách Hàng</span></a>
          </li>
          <li class="nav-item">
-             <a class="nav-link" href="">
+             <a class="nav-link" href="feedback-view-user.php">
              <i class="fas fa-comments"></i>
                  <span>Đánh Giá</span></a>
          </li>
