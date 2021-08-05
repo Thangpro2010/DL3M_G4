@@ -1,0 +1,238 @@
+/* style */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif
+}
+
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+.w3-top {
+    background: linear-gradient(120deg, #70a1ff, #f8a5c2);
+}
+
+.logo-name {
+    margin-top: .6em;
+    margin-left: 1rem;
+}
+
+.logo-name-navbar {
+    font-size: 1rem;
+    margin-top: .5em;
+    text-decoration: none;
+    font-family: 'Seaweed Script', cursive;
+}
+
+nav {
+    display: none;
+}
+
+header .w3-display-left {
+    padding: 48px;
+}
+
+.w3-top .w3-hide-medium {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.w3-card>a.logo-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.box {
+    margin-top: 1rem;
+    width: 21.2rem;
+    height: 2.2rem;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box>i {
+    padding: .2rem;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.box>input {
+    flex: 1;
+    height: 2rem;
+    border: none;
+    outline: none;
+}
+
+
+/* footer */
+
+footer {
+    background: linear-gradient(120deg, #70a1ff, #f8a5c2);
+}
+
+.footer-customer {
+    padding: 1rem;
+}
+
+ul.footer-customer li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    margin-top: 1rem;
+}
+
+.social-network i {
+    padding: 0.2rem;
+}
+
+.payment img {
+    padding: 0.18rem;
+}
+
+.copyright {
+    margin-top: 2rem;
+}
+
+.copyright .w3-large {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.copyright .w3-small {
+    margin-top: 2rem;
+}
+
+
+/* section */
+
+section .w3-col a i {
+    font-size: 1.2rem;
+    color: red;
+}
+
+section .w3-col a i span {
+    color: black;
+}
+
+section .w3-row img {
+    width: 100%;
+}
+
+section .w3-row a {
+    text-decoration: none;
+}
+
+section .w3-row a h5 {
+    color: black;
+}
+
+section .background-video {
+    background: linear-gradient(-25deg, #f7f1e3 50%, #F79F1F 50%);
+}
+
+section p.w3-center {
+    color: black;
+}
+
+section .container .w3-col p {
+    font-size: 1rem;
+}
+
+section div.zoom {
+    padding: 10px;
+    transition: transform .2s;
+    /* Animation */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+section div.zoom:hover {
+    transform: scale(1.1);
+}
+
+section div.zoom img {
+    border-radius: 5px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+
+/* tour */
+
+section div.address-to a {
+    padding: .5rem;
+}
+
+section div.address-to {
+    margin-top: 1.8rem;
+}
+
+section form .select {
+    width: 100%;
+    height: 34px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    color: #333333;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section form .select-date {
+    width: 100%;
+    height: 34px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    color: #333333;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section form .submit-tour {
+    width: 100%;
+    height: 34px;
+    padding-left: 20px;
+    background: #2691d9;
+    color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+section form .submit-tour:hover {
+    background: steelblue;
+}
+
+.submit-details {
+    width: 110px;
+    height: 30px;
+    padding-left: 10px;
+    background: #2691d9;
+    color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.submit-details:hover {
+    background: steelblue;
+}

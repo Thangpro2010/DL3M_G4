@@ -1,0 +1,61 @@
+section div.address-to a {
+    padding: .5rem;
+}
+
+section div.address-to {
+    margin-top: 1.8rem;
+}
+
+section form .select {
+    width: 100%;
+    height: 34px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    color: #333333;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section form .select-date {
+    width: 100%;
+    height: 34px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    color: #333333;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section form .submit-tour {
+    width: 100%;
+    height: 34px;
+    padding-left: 20px;
+    background: #2691d9;
+    color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+section form .submit-tour:hover {
+    background: steelblue;
+}
+
+.submit-details {
+    width: 110px;
+    height: 30px;
+    padding-left: 10px;
+    background: #2691d9;
+    color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.submit-details:hover {
+    background: steelblue;
+}
