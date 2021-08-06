@@ -13,3 +13,5 @@ Project semester 2 - FPT Aptech Teach used: PHP - Laravel - HTML/CSS/JS - Bootst
 Documetation included on the main folder:
 
 Documentation : 'Review1-2-3.docx'
+
+Link Video: https://www.youtube.com/watch?v=szwTgC01YUI
