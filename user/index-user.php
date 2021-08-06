@@ -31,7 +31,7 @@ include_once("../admin/DAO.php");
     .bgimg-1 {
         background-position: center;
         background-size: cover;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("images/background.jpg"); */
         min-height: 100%;
         height: 70px;
     }
@@ -42,6 +42,23 @@ include_once("../admin/DAO.php");
 
     section .check {
         color: orange;
+    }
+
+    .video-container {
+        z-index: -100;
+        width:  1380px;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5));
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .video-bg {
+        width: 100%;
     }
 </style>
 
@@ -91,6 +108,11 @@ include_once("../admin/DAO.php");
         <a style="text-decoration: none;" href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-medium"><i class="fa fa-times" aria-hidden="true"></i> Đóng</a>
     </nav>
     <!-- Header with full-height image -->
+    <div class="video-container">
+        <video autoplay loop muted class="video-bg">
+            <source src="video/ho-chi-minh-city-vacation-travel-guide-expedia.mp4" type="video/mp4">
+        </video>
+    </div>
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
         <div class="w3-display-left w3-text-white">
             <span style="font-size: 2.8rem;">THÁM HIỂM, MƠ MỘNG, KHÁM PHÁ</span><br>
